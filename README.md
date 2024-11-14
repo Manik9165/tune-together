@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+## Tune Together 
+A music streaming application that allows an individual to add and play tracks. 
+At first it might sound a basic application but trust me it is a lot more than that.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features 
 
-## Available Scripts
+- Add tracks to a playlist by searching from youtube.
+- Once the track is added, it'll be automatically played on the side panel.
+- You can add more tracks to your song queue by searching for more songs.
+- The songs will get played automatically at a 5 second interval.
 
-In the project directory, you can run:
+## Future Features
 
-### `npm start`
+- Adding web socket connection to incorporate multiple users.
+- A single platform where multiple users can come and play songs of thier choice.
+- A single song queue maintained for all connected users i.e. Justifying the name of application :)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tech used - 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React
+- Typescript
+- Tailwind CSS
+- Node.js (Future)
+- Express.js (Future)
+- Socket.io (Future)
